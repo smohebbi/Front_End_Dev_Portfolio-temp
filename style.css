@@ -46,6 +46,12 @@ body {
 
 }
 
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 footer {
     margin: auto auto 0 auto;
 }
