@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-photo {
+    max-width: 300px;
+    border-radius: 5%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+#header nav {
+    margin-left: auto;
+}
+
+#header nav a {
+    margin-left: 10px;
+}
+
+#about-me {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 400px;
+    display: none;
+}
+
+#skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer {
+    margin: auto auto 0 auto;
+}
+
